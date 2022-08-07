@@ -12,7 +12,7 @@ function changeColor() {
 function clearEventListener() {
     clearInterval(timerId);
     document.querySelector('[data-start]').disabled = false;
-    buttonStop.removeEventListener(clearEventListener)
+    // buttonStart.removeEventListener(clearEventListener)
 }
 
 buttonStart.addEventListener('click', () => {
